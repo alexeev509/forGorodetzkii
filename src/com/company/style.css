@@ -1,0 +1,116 @@
+*{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+.greenRectangles{
+    width: 43%;
+    height: 40%;
+    background-color: green;
+    position: absolute;
+}
+
+.left{
+    left: 0;
+    top: 0;
+}
+.right{
+    right: 0;
+    top: 0;
+}
+.bottomLeft{
+    left: 0;
+    bottom: 0;
+}
+.bottomRight{
+    right: 0;
+    bottom: 0;
+}
+
+/*.line{*/
+    /*margin-top:42%;*/
+    /*border-top:2px solid #f00;*/
+    /*height:100%;*/
+/*}*/
+
+.line{
+position: absolute;
+width: 45%;
+size:1px;
+color:#dddddd;
+}
+
+.line1Left{
+    top: 46.666%;
+}
+.line2Left{
+    top: 53.3333%;
+}
+
+.line1Right{
+    top: 46.666%;
+    right: 0;
+}
+.line2Right{
+    top: 53.3333%;
+    right:0 ;
+}
+
+.line1Top{
+    width: 0;
+    height: 40%;
+    left: 47.6666%;
+}
+
+.line2Top{
+    width: 0;
+    height: 40%;
+    right: 47.6666%;
+}
+
+.line1Bottom{
+    width: 0;
+    height: 40%;
+    left: 47.6666%;
+    bottom: 0;
+}
+
+.line2Bottom{
+    width: 0;
+    height: 40%;
+    right: 47.6666%;
+    bottom: 0;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    width: 4%;
+    height: 6.1%;
+    background-color: red;
+}
+
+.startPositionFirst{
+    top: 335px;
+    left: 10px;
+}
+
+.startPositionThird{
+    top: 445px;
+    left: 10px;
+}
+.startPositionSecond{
+    top: 390px;
+    left: 16px;
+}
+
+.trafficLight{
+    left: 1%;
+    bottom: 1%;
+    width: 19%;
+    height: 30%;
+}
