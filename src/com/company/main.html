@@ -15,14 +15,27 @@
 <hr class="line line2Top" />
 <hr class="line line1Bottom" />
 <hr class="line line2Bottom" />
+<hr class="line stopLine"/>
 <!--<div class="circle startPositionOne">-->
 </div>
  <div class="greenRectangles left">
      <button onclick="createCars()">Create cars</button><br>
      <button onclick="start()">Start</button>
+     <br>
+     <select id="directionList" onchange="onSelectList()">
+         <optgroup label="Направление машин">
+             <option value="r1">Вперед</option>
+             <option value="r2">Направо</option>
+             <option value="r3">Налево</option>
+         </optgroup>
+     </select>
  </div>
  <div class="greenRectangles right">
-     <div class="circle trafficLight"></div>
+     <div class="trafficLightsRectangle">
+         <div class="trafficLight trafficLightFirst"></div>
+         <div class="trafficLight trafficLightSecond"></div>
+         <div class="trafficLight trafficLightThird"></div>
+     </div>
  </div>
  <div class="greenRectangles bottomLeft"></div>
  <div class="greenRectangles bottomRight"></div>

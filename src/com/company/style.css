@@ -39,7 +39,7 @@ body{
 
 .line{
 position: absolute;
-width: 45%;
+width: 43%;
 size:1px;
 color:#dddddd;
 }
@@ -113,4 +113,52 @@ color:#dddddd;
     bottom: 1%;
     width: 19%;
     height: 30%;
+}
+
+
+.trafficLightsRectangle{
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    width:40px;
+    height:40px;
+    background-color: gray;
+    transform:rotate(45grad);
+}
+.trafficLight{
+    position: absolute;
+    background-color: white;
+}
+.trafficLightFirst{
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.trafficLightSecond{
+    top: 33%;
+    left: 33%;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.trafficLightThird{
+    top: 60%;
+    left: 60%;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+
+.stopLine{
+    width: 0;
+    height: 100%;
+    left: 618px;
+    bottom: 30%;
+}
+
+#directionList{
+    visibility: hidden;
 }
